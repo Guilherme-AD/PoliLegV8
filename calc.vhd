@@ -1,5 +1,5 @@
 --------------------------------------------------------------
---1BIT FULL-ADDER - GUILHERME ALVARENGA DIAS - SD2
+--1BIT FULL-ADDER - SD2
 --------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -28,7 +28,7 @@ entity fa_1bit is
             (CIN and A and B);
   end architecture sum_minterm;
 --------------------------------------------------------------
---8BIT FULL-ADDER - GUILHERME ALVARENGA DIAS - SD2
+--8BIT FULL-ADDER - SD2
 --------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -142,7 +142,7 @@ entity fa_8bit is
     
   end architecture ripple;
 --------------------------------------------------------------
---REGISTRADOR (T3A1) - GUILHERME ALVARENGA DIAS - SD2
+--REGISTRADOR (T3A1) - SD2
 --------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -175,7 +175,7 @@ architecture reg_arc of reg is
 end architecture reg_arc;
 
 --------------------------------------------------------------
---REGISTER BANK (T3A2) - GUILHERME ALVARENGA DIAS - SD2
+--REGISTER BANK (T3A2) - SD2
 --------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -234,7 +234,7 @@ architecture regfile_arc of regfile is
 end architecture regfile_arc;
 
 --------------------------------------------------------------
---REGISTER W/ CALC (T3A3) - GUILHERME ALVARENGA DIAS - SD2
+--REGISTER W/ CALC (T3A3) - SD2
 --------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
