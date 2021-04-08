@@ -1,5 +1,5 @@
 -----------------------------------------------------------------
---PROCESSOR CONTROL UNIT (T5A4) - GUILHERME ALVARENGA DIAS - SD2
+--PROCESSOR CONTROL UNIT (T5A4) - SD2
 -----------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
