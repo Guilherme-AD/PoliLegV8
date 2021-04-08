@@ -1,5 +1,5 @@
 ------------------------------------------------------------------
---REGISTRADOR / COMPONENT (T3A1) - GUILHERME ALVARENGA DIAS - SD2
+--REGISTRADOR / COMPONENT (T3A1) - SD2
 ------------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -32,7 +32,7 @@ architecture reg_arc of reg is
 end architecture reg_arc;
 
 --------------------------------------------------------------
---REGFILE / COMPONENT (T3A2) - GUILHERME ALVARENGA DIAS - SD2
+--REGFILE / COMPONENT (T3A2) - SD2
 --------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -91,7 +91,7 @@ architecture regfile_arc of regfile is
 end architecture regfile_arc;
 
 -----------------------------------------------------------------
---ALU (T5A2) / ADDER COMPONENT - GUILHERME ALVARENGA DIAS - SD2
+--ALU (T5A2) / ADDER COMPONENT - SD2
 -----------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -111,7 +111,7 @@ architecture fulladder_arc of fulladder is
         cout <= (a and b) or ((a or b) and cin);
 end architecture fulladder_arc;
 --------------------------------------------------------------
---ALU1BIT / COMPONENT (T5A2) - GUILHERME ALVARENGA DIAS - SD2
+--ALU1BIT / COMPONENT (T5A2) - SD2
 --------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -165,7 +165,7 @@ architecture alu1bit_arc of alu1bit is
 end architecture alu1bit_arc;
 
 ------------------------------------------------------------------
---COMPLETE ALU / COMPONENT (T5A2) - GUILHERME ALVARENGA DIAS - SD2
+--COMPLETE ALU / COMPONENT (T5A2) - SD2
 ------------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -236,7 +236,7 @@ architecture alu_arc of alu is
 end architecture alu_arc;
 
 -----------------------------------------------------------------
---SIGNEXTEND / COMPONENT (T5A1) - GUILHERME ALVARENGA DIAS - SD2
+--SIGNEXTEND / COMPONENT (T5A1) - SD2
 -----------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -269,7 +269,7 @@ architecture signExtend_arc of signExtend is
 end architecture signExtend_arc;
 
 -----------------------------------------------------------------
---SHIFTLEFT2 / COMPONENT (T6A1) - GUILHERME ALVARENGA DIAS - SD2
+--SHIFTLEFT2 / COMPONENT (T6A1) - SD2
 -----------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -293,7 +293,7 @@ architecture Shiftleft2_arc of Shiftleft2 is
 end architecture Shiftleft2_arc;
 
 -----------------------------------------------------------------
---PROCESSOR CONTROL UNIT (T5A4) - GUILHERME ALVARENGA DIAS - SD2
+--PROCESSOR CONTROL UNIT (T5A4) - SD2
 -----------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -349,7 +349,7 @@ architecture controlunit_arc of controlunit is --PARA SINAIS DONT CARE IREMOS SE
 end architecture controlunit_arc;
 
 -----------------------------------------------------
---ALUCONTROL (T5A3) - GUILHERME ALVARENGA DIAS - SD2
+--ALUCONTROL (T5A3) - SD2
 -----------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -374,7 +374,7 @@ architecture alucontrol_arc of alucontrol is
 end architecture alucontrol_arc;
 
 -----------------------------------------------------------------
---DATAPATH (T6A1) - GUILHERME ALVARENGA DIAS - SD2
+--DATAPATH (T6A1) - SD2
 -----------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -526,7 +526,7 @@ architecture datapath_arc of datapath is --REGFILE, ALU, SIGNEXTEND, SHIFTLEFT2
 end architecture datapath_arc;
                         
 -----------------------------------------------------------------
---CONTROL UNIT (T6A1) - GUILHERME ALVARENGA DIAS - SD2
+--CONTROL UNIT (T6A1) - SD2
 -----------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
