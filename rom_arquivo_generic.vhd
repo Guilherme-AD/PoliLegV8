@@ -1,5 +1,5 @@
 --------------------------------------------------------------
---ROM ARQUIVO (GENERIC) - GUILHERME ALVARENGA DIAS - SD2
+--ROM ARQUIVO (GENERIC) - SD2
 --------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
