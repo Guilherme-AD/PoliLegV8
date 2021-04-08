@@ -1,5 +1,5 @@
 -----------------------------------------------------------------
---ALU (T4A1) / ADDER COMPONENT - GUILHERME ALVARENGA DIAS - SD2
+--ALU (T4A1) / ADDER COMPONENT - SD2
 -----------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -19,7 +19,7 @@ architecture fulladder_arc of fulladder is
         cout <= (a and b) or ((a or b) and cin);
 end architecture fulladder_arc;
 ----------------------------------------------------------
---ALU (T4A1) / COMPONENT - GUILHERME ALVARENGA DIAS - SD2
+--ALU (T4A1) / COMPONENT - SD2
 ----------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -69,7 +69,7 @@ architecture alu1bit_arc of alu1bit is
         overflow <= cin xor coutInternal;
 end architecture alu1bit_arc;
 -----------------------------------------------
---ALU (T4A2) - GUILHERME ALVARENGA DIAS - SD2
+--ALU (T4A2) - SD2
 -----------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
