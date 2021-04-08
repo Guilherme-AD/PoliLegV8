@@ -1,5 +1,5 @@
 ------------------------------------------------------
---SIGNEXTEND (T5A1) - GUILHERME ALVARENGA DIAS - SD2
+--SIGNEXTEND (T5A1) - SD2
 ------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
