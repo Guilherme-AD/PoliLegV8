@@ -1,5 +1,5 @@
 -----------------------------------------------------
---ALUCONTROL (T5A3) - GUILHERME ALVARENGA DIAS - SD2
+--ALUCONTROL (T5A3) - SD2
 -----------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
