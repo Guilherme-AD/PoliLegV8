@@ -1,5 +1,5 @@
 -----------------------------------------------------------------
---ALU (T5A2) / ADDER COMPONENT - GUILHERME ALVARENGA DIAS - SD2
+--ALU (T5A2) / ADDER COMPONENT - SD2
 -----------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -19,7 +19,7 @@ architecture fulladder_arc of fulladder is
         cout <= (a and b) or ((a or b) and cin);
 end architecture fulladder_arc;
 --------------------------------------------------
---ALU1BIT (T5A2) - GUILHERME ALVARENGA DIAS - SD2
+--ALU1BIT (T5A2) - SD2
 --------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -73,7 +73,7 @@ architecture alu1bit_arc of alu1bit is
 end architecture alu1bit_arc;
 
 -----------------------------------------------
---ALU (T5A2) - GUILHERME ALVARENGA DIAS - SD2
+--ALU (T5A2) - SD2
 -----------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
