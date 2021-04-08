@@ -1,5 +1,5 @@
 --------------------------------------------------------------
---REGISTRADOR (T3A1) - GUILHERME ALVARENGA DIAS - SD2
+--REGISTRADOR (T3A1) - SD2
 --------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
@@ -32,7 +32,7 @@ architecture reg_arc of reg is
 end architecture reg_arc;
 
 --------------------------------------------------------------
---REGISTRADOR (T3A2) - GUILHERME ALVARENGA DIAS - SD2
+--REGISTRADOR (T3A2) - SD2
 --------------------------------------------------------------
 library IEEE;
 use IEEE.numeric_bit.all;
